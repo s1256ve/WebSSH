@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2019/5/12 ?W?? 11:25:24 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="org.model.Login_5_12" table="LOGIN" catalog="school">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="role" type="boolean">
+            <column name="ROLE" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<package name="default" namespace="/" extends="struts-default">
+		<action name="hello">
+			<result name="success">
+				/hello.jsp
+			</result>
+		</action>
+		
+		<action name="add_4_21" class="action.AddAction_4_21">
+			<result name="success">/success_4_21.jsp</result>
+		</action>
+		
+		<action name="delete_4_21" class="action.DeleteAction_4_21">
+			<result name="success">/success_4_21.jsp</result>
+		</action>
+		
+		<action name="update_4_21" class="action.UpdateAction_4_21">
+			<result name="success">/success_4_21.jsp</result>
+		</action>
+		
+		<action name="load_4_21" class="action.LoadAction_4_21">
+			<result name="success">/success_load_4_21.jsp</result>
+		</action>
+		
+		<action name="Test1">
+			<result name="success">
+				/Test1
+			</result>
+		</action>
+		<action name="loginc" class="org.crazyit.app.action.LoginAction">
+		
+			<result name="error">/errorc.jsp</result>
+			<result name="success">/welcome.jsp</result>
+		</action>
+		
+		<action name="login" class="org.action.LoginAction">
+			<result name="success">main.jsp</result>
+			<result name="error">ERROR.jsp</result>
+		</action>
+		
+		<action name="login_4_14" class="org.action.LoginAction_4_14">
+			<result name="success">/welcome_4_14.jsp</result>
+			<result name="error">/error_4_14.jsp</result>
+		</action>
+		
+		<action name="add_4_14" class="org.action.AddAction_4_14">
+			<result name="success">/login_4_14.jsp</result>
+		</action>
+		
+		<action name="login_4_28" class="org.action.LoginAction_4_28">
+			<result name="admin">/admin_4_28.jsp</result>
+			<result name="student">/student_4_28.jsp</result>
+			<result name="error">/error_4_28.jsp</result>
+		</action>
+		
+		<action name="addBook_5_12" class="org.action.AddBook_Action_5_12">
+			<result name="success">/success_5_12.jsp</result>
+			<result name="fail">/fail_5_12.jsp</result>
+		</action>
+		<action name="deleteBook_5_12" class="org.action.DeleteBook_Action_5_12">
+			<result name="success">/success_5_12.jsp</result>
+			<result name="fail">/fail_5_12.jsp</result>
+		</action>
+	</package>
+
+</struts>

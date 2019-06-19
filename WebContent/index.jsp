@@ -60,6 +60,14 @@
 				<a href="allJsp_5_19.jsp">allJsp_5_19</a><br>
 			</td>
 		</tr>
+		<tr>
+			<td>6/19</td>
+			<td>
+				<a href="selectAction">testOGNL</a><br>
+   				<a href="selectAction.action">testOGNL</a><br>
+   				<a href="resultAction.action">result</a><br>
+			</td>
+		</tr>	
 	</table>
 </body>
 </html>
